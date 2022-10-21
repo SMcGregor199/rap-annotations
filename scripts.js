@@ -4,3 +4,4 @@ for (bar of bars){
 	bar.classList.add('MyClass');
 }
 
+//some text
