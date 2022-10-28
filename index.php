@@ -52,4 +52,5 @@
 <p>
 	Bitch, don't tell me that you model if you ain't been in Vogue
 </p>
+<textarea name="textarea" id="" cols="30" rows="10"></textarea>
 <?php include('footer.php'); ?>

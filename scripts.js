@@ -1,7 +1,15 @@
-var bars = document.querySelectorAll('p');
+var textArea = document.querySelector('textarea');
 
-for (bar of bars){
-	bar.classList.add('MyClass');
+function getSelectedText() {
+	 var selectedText = '';
+
+	if (document.getSelection()) {
+	    selectedText = document.getSelection();
+	    console.log(selectedText);
+	    console.log("it worked!");
+	 }
+	 else {
+	 	console.log("it didn't work");
+	 }
+ 	textArea.value = selectedText;
 }
-
-//some text
