@@ -1,3 +1,7 @@
+// window.addEventListener("click",function(event){
+// 	console.log(event);
+// })
+
 var textArea = document.querySelector('textarea');
 
 function getSelectedText() {
